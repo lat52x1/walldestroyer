@@ -7,7 +7,7 @@ Let's make a game!
   version:3.3.0.1
 
 Settings
-  building cost increase:100%
+  building cost increase:110%
   building cost refund:75%
   stylesheet:https://raw.githubusercontent.com/Qjuh/walldestroyer/refs/heads/main/stylesheet.txt
 
