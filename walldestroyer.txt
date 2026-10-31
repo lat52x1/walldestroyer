@@ -7266,7 +7266,7 @@ Achievements
   icon:http://i.imgur.com/OasIKlg.png
   *Scrub
   desc:Deal <b>100</b> damage to the wall.
-  req:2 totalMoney
+  req:100 totalMoney
   name:Scrub
   icon:http://i.imgur.com/YU4cmkc.png
   *LessScrub
