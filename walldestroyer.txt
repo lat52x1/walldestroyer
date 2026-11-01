@@ -3243,7 +3243,7 @@ Upgrades
   *timeBearWard2
   desc:Everything is <b>5%</b> more efficient.<q>We asked the wizards what the Time Bear is, and they said 'Something that you do not want aware of your presence'. That's a little ominous, but not enough to stop us from using everything we have to take down this wall!</q>
   cost:98765432 fourthWallMatter, 9876543210 bricks
-  req:125 prestige, 2 resetTimes
+  req:125 prestige, 1 resetTimes
   passive:
     multiply yield of tag:building by 1.05
     multiply yield of tag:clickable by 1.05
@@ -3253,7 +3253,7 @@ Upgrades
   *timeBearWard3
   desc:Everything is <b>5%</b> more efficient.<q>We were going to ask the titans what the Time Bear is, but the translator wizards refused to ask them, saying "There are too many old wounds".</q>
   cost:987654321 fourthWallMatter, 98765432101 bricks
-  req:250 prestige, 3 resetTimes
+  req:250 prestige, 1 resetTimes
   passive:
     multiply yield of tag:building by 1.05
     multiply yield of tag:clickable by 1.05
@@ -3263,7 +3263,7 @@ Upgrades
   *timeBearWard4
   desc:Everything is <b>5%</b> more efficient.<q>We asked the demons what the Time Bear is, and the chief demon said "Something you do not want anywhere near you". This sounds strange coming from the guy who has carried around some of the most dangerous things we have ever encountered and trolled people with them.</q>
   cost:9876543210 fourthWallMatter, 987654321012 bricks
-  req:400 prestige, 4 resetTimes
+  req:400 prestige, 1 resetTimes
   passive:
     multiply yield of tag:building by 1.05
     multiply yield of tag:clickable by 1.05
@@ -3273,7 +3273,7 @@ Upgrades
   *timeBearWard5
   desc:Everything is <b>5%</b> more efficient.<q>One of our agents went crazy, muttering about seeing the Time Bear. The wizards are saying he may have been tainted and must be executed.</q>
   cost:98765432101 fourthWallMatter, 9876543210123 bricks
-  req:750 prestige, 5 resetTimes
+  req:750 prestige, 1 resetTimes
   passive:
     multiply yield of tag:building by 1.05
     multiply yield of tag:clickable by 1.05
@@ -3283,7 +3283,7 @@ Upgrades
   *timeBearWard6
   desc:Everything is <b>6%</b> more efficient.<q>Found graffiti on the side of RUC headquarters saying "THE TIME BEAR IS COMING". Reports of irrational feelings of fear when looking at it. Requesting termination of the Time Rewinder project.</q><i>Agent Lawrence</i>
   cost:987654321012 fourthWallMatter, 98765432101234 bricks
-  req:1250 prestige, 6 resetTimes
+  req:1250 prestige, 1 resetTimes
   passive:
     multiply yield of tag:building by 1.06
     multiply yield of tag:clickable by 1.06
@@ -3293,7 +3293,7 @@ Upgrades
   *timeBearWard7
   desc:Everything is <b>6%</b> more efficient.<q>The graffiti is everywhere now. On all of our facilities. It seems to appear overnight, after the cameras strangely go offline. Requesting immediate termination of the Time Rewinder project.</q><i>Chief of Security, RUC</i>
   cost:9876543210123 fourthWallMatter, 987654321012345 bricks
-  req:4000 prestige, 7 resetTimes
+  req:4000 prestige, 1 resetTimes
   passive:
     multiply yield of tag:building by 1.06
     multiply yield of tag:clickable by 1.06
@@ -3303,7 +3303,7 @@ Upgrades
   *timeBearWard8
   desc:Everything is <b>6%</b> more efficient.<q>dude this is some creepy shit just cut the time crap</q><i>1337 sn1p3r #73</i>
   cost:98765432101234 fourthWallMatter, 9876543210123456 bricks
-  req:15000 prestige, 8 resetTimes
+  req:15000 prestige, 1 resetTimes
   passive:
     multiply yield of tag:building by 1.06
     multiply yield of tag:clickable by 1.06
@@ -3313,7 +3313,7 @@ Upgrades
   *timeBearWard9
   desc:Everything is <b>6%</b> more efficient.<q>We asked the wizards if there was any way to fully stop the Time Bear, and they said "You do not attempt to destroy the sun to prevent it from rising".</q>
   cost:987654321012345 fourthWallMatter, 98765432101234567 bricks
-  req:40000 prestige, 9 resetTimes
+  req:40000 prestige, 1 resetTimes
   passive:
     multiply yield of tag:building by 1.06
     multiply yield of tag:clickable by 1.06
@@ -3323,7 +3323,7 @@ Upgrades
   *timeBearWard10
   desc:Everything is <b>6%</b> more efficient.<q>We asked the demons if they could stop the Time Bear, and they said "There are things that you do not mess with. With us, there are only two. Our boss, and the Time Bear".</q>
   cost:9876543210123456 fourthWallMatter, 987654321012345678 bricks
-  req:150000 prestige, 10 resetTimes
+  req:150000 prestige, 1 resetTimes
   passive:
     multiply yield of tag:building by 1.06
     multiply yield of tag:clickable by 1.06
@@ -3333,7 +3333,7 @@ Upgrades
   *timeBearWard11
   desc:Everything is <b>6%</b> more efficient.<q>The reality compromiser project leader attempted to find the Time Bear in reality code, to remove it. He was found dead two hours later in the seat of a reality compromiser. When inspected for cause of death, it seemed he had died of shock.</q>
   cost:98765432101234567 fourthWallMatter, 9876543210123456789 bricks
-  req:400000 prestige, 11 resetTimes
+  req:400000 prestige, 1 resetTimes
   passive:
     multiply yield of tag:building by 1.06
     multiply yield of tag:clickable by 1.06
@@ -3343,7 +3343,7 @@ Upgrades
   *timeBearWard12
   desc:Everything is <b>7%</b> more efficient.<q>This is the last ward the wizards can make. I do not know where we should go from this. I am going to remove myself from anywhere that could be associated with time travel. This is a farewell message. The Time Bear is coming.</q><i>CEO, RUC</i>
   cost:9876543210123456789 fourthWallMatter, 987654321012345678900 bricks
-  req:1500000 prestige, 11 resetTimes
+  req:1500000 prestige, 1 resetTimes
   passive:
     multiply yield of tag:building by 1.07
     multiply yield of tag:clickable by 1.07
@@ -3353,7 +3353,7 @@ Upgrades
   *timeBearWard13
   desc:Everything is <b>8%</b> more efficient.<q>There is one thing that does not fear the Time Bear: The Black. The most evil substance known to anyone may be our only hope.</q>
   cost:987654321012345678900 fourthWallMatter, 98765432101234567890000 bricks
-  req:4000000 prestige, 12 resetTimes
+  req:4000000 prestige, 1 resetTimes
   passive:
     multiply yield of tag:building by 1.08
     multiply yield of tag:clickable by 1.08
@@ -3363,7 +3363,7 @@ Upgrades
   *timeBearWard14
   desc:Everything is <b>11%</b> more efficient.<q>Whoever these guys were or are, they have supposedly come close to the Time Bear and survived. Perhaps their artifacts could help us.</q>
   cost:98765432101234567890000 fourthWallMatter, 9876543210123456789000000 bricks
-  req:9000000 prestige, 13 resetTimes
+  req:9000000 prestige, 1 resetTimes
   passive:
     multiply yield of tag:building by 1.11
     multiply yield of tag:clickable by 1.11
@@ -3373,7 +3373,7 @@ Upgrades
   *timeBearWard15
   desc:Everything is <b>12%</b> more efficient.<q>These are the tools made out of the Time Bear's skin; this will totally come in handy.</q>
   cost:9876543210123456789000000 fourthWallMatter, 987654321012345678900000000 bricks
-  req:14000000 prestige, 14 resetTimes
+  req:14000000 prestige, 1 resetTimes
   passive:
     multiply yield of tag:building by 1.12
     multiply yield of tag:clickable by 1.12
@@ -3383,7 +3383,7 @@ Upgrades
   *timeBearWard16
   desc:Everything is <b>12.5%</b> more efficient.<q>We beat the Time Bear. We are unstoppable. We are one. We are many.</q>
   cost:987654321012345678900000000 fourthWallMatter, 98765432101234567890000000000 bricks
-  req:18000000 prestige, 15 resetTimes
+  req:18000000 prestige, 1 resetTimes
   passive:
     multiply yield of tag:building by 1.125
     multiply yield of tag:clickable by 1.125
