@@ -1748,36 +1748,36 @@ Buildings
   *timeUpgradeProd
   always hidden
   passive:
-    if (chance(0.05%)) gain 1 timeUpgradeRes2
-    if (chance(0.05%)) gain 1 timeUpgradeRes3
-    if (chance(0.05%)) gain 1 timeUpgradeRes4
-    if (chance(0.05%)) gain 1 timeUpgradeRes5
-    if (chance(0.05%)) gain 1 timeUpgradeRes6
-    if (chance(0.05%)) gain 1 timeUpgradeRes7
-    if (chance(0.05%)) gain 1 timeUpgradeRes8
-    if (chance(0.05%)) gain 1 timeUpgradeRes9
-    if (chance(0.05%)) gain 1 timeUpgradeRes10
-    if (chance(0.05%)) gain 1 timeUpgradeRes11
-    if (chance(0.05%)) gain 1 timeUpgradeRes12
+    if (chance(0.5%)) gain 1 timeUpgradeRes2
+    if (chance(0.5%)) gain 1 timeUpgradeRes3
+    if (chance(0.5%)) gain 1 timeUpgradeRes4
+    if (chance(0.5%)) gain 1 timeUpgradeRes5
+    if (chance(0.5%)) gain 1 timeUpgradeRes6
+    if (chance(0.5%)) gain 1 timeUpgradeRes7
+    if (chance(0.5%)) gain 1 timeUpgradeRes8
+    if (chance(0.5%)) gain 1 timeUpgradeRes9
+    if (chance(0.5%)) gain 1 timeUpgradeRes10
+    if (chance(0.5%)) gain 1 timeUpgradeRes11
+    if (chance(0.5%)) gain 1 timeUpgradeRes12
   end
   *timeUpgradeProd2
   always hidden
   passive:
-    if (chance(0.05%)) gain 1 timeUpgradeRes13
-    if (chance(0.05%)) gain 1 timeUpgradeRes14
-    if (chance(0.05%)) gain 1 timeUpgradeRes15
-    if (chance(0.05%)) gain 1 timeUpgradeRes16
-    if (chance(0.05%)) gain 1 timeUpgradeRes17
-    if (chance(0.05%)) gain 1 timeUpgradeRes18
-    if (chance(0.05%)) gain 1 timeUpgradeRes19
-    if (chance(0.05%)) gain 1 timeUpgradeRes20
+    if (chance(0.5%)) gain 1 timeUpgradeRes13
+    if (chance(0.5%)) gain 1 timeUpgradeRes14
+    if (chance(0.5%)) gain 1 timeUpgradeRes15
+    if (chance(0.5%)) gain 1 timeUpgradeRes16
+    if (chance(0.5%)) gain 1 timeUpgradeRes17
+    if (chance(0.5%)) gain 1 timeUpgradeRes18
+    if (chance(0.5%)) gain 1 timeUpgradeRes19
+    if (chance(0.5%)) gain 1 timeUpgradeRes20
   end
   *timeUpgradeProd3
   always hidden
-  passive:if (chance(0.05%)) gain 1 timeUpgradeRes21
+  passive:if (chance(0.5%)) gain 1 timeUpgradeRes21
   *timeUpgradeProd4
   always hidden
-  passive:if (chance(0.05%)) gain 1 timeUpgradeRes22
+  passive:if (chance(0.5%)) gain 1 timeUpgradeRes22
 
   *puncher
   desc:Melee building</>Does <b>0.4</b> base damage.<q>Punches the wall for you.</q><.>Your punchers do <b>[puncherDamage:ps] damage per second</b>.<.>They did <b>[puncherDamage] damage</b> in total.
