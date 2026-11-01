@@ -2485,11 +2485,11 @@ Upgrades
   icon:http://i.imgur.com/WyJyF4U.png
   req:have spaceResearch
   *spaceUpgrade6
-  desc:Everything is <b>8%</b> more efficient.<q>Using our new knowledge of space with the compromisers, pretty much everything can be made better. Mostly consists of making things bigger, of course.</q>
+  desc:Everything is <b>32%</b> more efficient.<q>Using our new knowledge of space with the compromisers, pretty much everything can be made better. Mostly consists of making things bigger, of course.</q>
   cost:15 spaceBricks
   passive:
-    multiply yield of tag:clickable by 1.08
-    multiply yield of tag:building by 1.08
+    multiply yield of tag:clickable by 1.32
+    multiply yield of tag:building by 1.32
   end
   name:Spacial Improvements
   icon:http://i.imgur.com/sLWYgGF.png
