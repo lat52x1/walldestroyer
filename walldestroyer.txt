@@ -3417,8 +3417,8 @@ Upgrades
   desc:Everything is <b>20%</b> more efficient for each wall you've destroyed.<q>Let's compile our knowledge of wall destroying in a book so we can learn from our past mistakes.</>CEO EDIT: the RUC does not make mistakes.</q>
   cost:250000000000 money
   passive:
-    multiply yield of tag:clickable by (1 + 0.2 * wallsDestroyed)
-    multiply yield of tag:building by (1 + 0.2 * wallsDestroyed)
+    multiply yield of tag:clickable by (1 + 0.5 * wallsDestroyed)
+    multiply yield of tag:building by (1 + 0.5 * wallsDestroyed)
   end
   name:The Chronicle
   icon:http://i.imgur.com/zqNeRti.png
