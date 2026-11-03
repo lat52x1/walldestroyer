@@ -1450,7 +1450,7 @@ Buildings
   req:1 destroyBonusWall47
   *destroyFantasyWall01
   desc:<i>Now we can't tell what's different from reality and fantasy anymore. The lines have blurred... and only the <b>Tesseracted</b> can touch it.</i></>Destroy a wall of a fantasy world and move to the next one.</>Gives <b>1</b> Alpha brick and <b>1</b> Fifth Dimension brick.</>Worth <b>200,000</b> cosmic knowledge.</>Note: ...Ok, ok, maybe in fact you can keep your Alpha and Fifth Dimension bricks. Time reversal technology has improved quite vastly since we've first seen the Time Walls, so this shouldn't be a problem anymore.
-  cost:1e42 tesseractDamage, 1 wallRequirement
+  cost:1e42 totalMoney, 1 wallRequirement
   on earn:
     gain 1 alphaBricks
     gain 1 fifthBricks
@@ -1465,7 +1465,7 @@ Buildings
   req:1 destroyBonusWall48
   *destroyFantasyWall02
   desc:<i>"When the first Fantasy Wall was destroyed, even stranger bricks came out of it. We call them the 5th Dimension Bricks because they don't even look like bricks... when separated." ~#21</i></>Destroy another wall of a fantasy world and move to the next one.</>Gives <b>2</b> Alpha bricks and <b>1</b> Fifth Dimension brick.</>Worth <b>200,000</b> cosmic knowledge.
-  cost:5e42 tesseractDamage, 1 wallRequirement
+  cost:5e42 totalMoney, 1 wallRequirement
   on earn:
     gain 2 alphaBricks
     gain 1 fifthBricks
@@ -1480,7 +1480,7 @@ Buildings
   req:1 destroyFantasyWall01
   *destroyFantasyWall03
   desc:<i>"Let's get something straight here. There are more after the end?! No matter how much reality has broken, I will see to it that every single wall must be demolished!" ~ RUC CEO</i></>Destroy yet another wall of a fantasy world and move to the next one.</>Gives <b>3</b> Alpha bricks and <b>1</b> Fifth Dimension brick.</>Worth <b>250,000</b> cosmic knowledge.
-  cost:3.5e43 tesseractDamage, 1 wallRequirement
+  cost:3.5e43 totalMoney, 1 wallRequirement
   on earn:
     gain 3 alphaBricks
     gain 1 fifthBricks
@@ -1495,7 +1495,7 @@ Buildings
   req:1 destroyFantasyWall02
   *destroyFantasyWall04
   desc:<i>"We have angered the Kingdom. It's best we get this thing over with."</i></>Destroy an insignificant wall of a fantasy world and challenge the Kingdom.</>Gives <b>4</b> Alpha bricks and <b>1</b> Fifth Dimension brick.</>Worth <b>250,000</b> cosmic knowledge.
-  cost:2.25e44 tesseractDamage, 1 wallRequirement
+  cost:2.25e44 totalMoney, 1 wallRequirement
   on earn:
     gain 4 alphaBricks
     gain 1 fifthBricks
@@ -1510,7 +1510,7 @@ Buildings
   req:1 destroyFantasyWall03
   *destroyFantasyWall05
   desc:<i>"The </i></>Destroy The Pawn and move to the next.</>Gives <b>5</b> Alpha bricks and <b>1</b> Fifth Dimension brick.</>Worth <b>300,000</b> cosmic knowledge.
-  cost:1e45 tesseractDamage, 1 wallRequirement
+  cost:1e45 totalMoney, 1 wallRequirement
   on earn:
     gain 5 alphaBricks
     gain 1 fifthBricks
@@ -1525,7 +1525,7 @@ Buildings
   req:1 destroyFantasyWall04
   *destroyFantasyWall06
   desc:<i>(insert lore description lol)</i></>Destroy The Knight and move to the next.</>Gives <b>6</b> Alpha bricks and <b>1</b> Fifth Dimension brick.</>Worth <b>300,000</b> cosmic knowledge.
-  cost:3.5e45 tesseractDamage, 1 wallRequirement
+  cost:3.5e45 totalMoney, 1 wallRequirement
   on earn:
     gain 6 alphaBricks
     gain 1 fifthBricks
@@ -1540,7 +1540,7 @@ Buildings
   req:1 destroyFantasyWall05
   *destroyFantasyWall07
   desc:<i>(insert lore description lol)</i></>Destroy The Bishop and move to the next.</>Gives <b>7</b> Alpha bricks and <b>1</b> Fifth Dimension brick</>Worth <b>400,000</b> cosmic knowledge.
-  cost:3e45 tesseractDamage, 1 wallRequirement
+  cost:5e45 totalMoney, 1 wallRequirement
   on earn:
     gain 7 alphaBricks
     gain 1 fifthBricks
@@ -1555,7 +1555,7 @@ Buildings
   req:1 destroyFantasyWall06
   *destroyFantasyWall08
   desc:<i>(insert lore description lol)</i></>Destroy The Rook and move to the next.</>Gives <b>8</b> Alpha bricks and <b>1</b> Fifth Dimension brick</>Worth <b>400,000</b> cosmic knowledge.
-  cost:8.8e45 tesseractDamage, 1 wallRequirement
+  cost:8.8e45 totalMoney, 1 wallRequirement
   on earn:
     gain 8 alphaBricks
     gain 1 fifthBricks
@@ -1570,7 +1570,7 @@ Buildings
   req:1 destroyFantasyWall07
   *destroyFantasyWall09
   desc:<i>(insert lore description lol)</i></>Destroy The Queen and move to the next.</>Gives <b>9</b> Alpha bricks and <b>3</b> Fifth Dimension brick</>Worth <b>500,000</b> cosmic knowledge.
-  cost:2.5e46 tesseractDamage, 1 wallRequirement
+  cost:2.5e46 totalMoney, 1 wallRequirement
   on earn:
     gain 9 alphaBricks
     gain 3 fifthBricks
@@ -1585,7 +1585,7 @@ Buildings
   req:1 destroyFantasyWall08
   *destroyFantasyWall10
   desc:<i>(insert lore description lol)</i></>Destroy The King.</>Gives <b>10</b> Alpha bricks, <b>5</b> Fifth Dimension bricks and <b>1</b> gold brick.</>Worth <b>1,000,000</b> cosmic knowledge.
-  cost:1e47 tesseractDamage, 1 wallRequirement
+  cost:1e47 totalMoney, 1 wallRequirement
   on earn:
     gain 1 goldBricks
     gain 10 alphaBricks
@@ -1603,7 +1603,7 @@ Buildings
 // begin infinity walls
   *destroyInfWall01
   desc:<i>Reaching beyond the heavens. Nothing makes sense.</i></>Destroy one of the walls of the infinite walls.</>Gives <b>15</b> Alpha bricks, <b>2</b> Fifth Dimension bricks and <b>1 undecillion</b> bricks.</>Worth <b>250,000</b> cosmic knowledge.
-  cost:2.3465e47 tesseractDamage, 1e47 totalmoney, 1 wallRequirement
+  cost:2.3465e47 totalMoney, 1 wallRequirement
   on earn:
     gain 1e36 bricks
     gain 15 alphaBricks
@@ -1619,7 +1619,7 @@ Buildings
   req:1 destroyFantasyWall10
   *destroyInfWall02
   desc:please excuse me for the lack of a description while I try to rebalance this era. ok thanks</>Gives <b>25</b> Alpha bricks, <b>4</b> Fifth Dimension bricks, <b>16,000</b> artifical space bricks and <b>8 undecillion</b> bricks.</>Worth <b>350,000</b> cosmic knowledge.
-  cost:4.8484848e48 tesseractDamage, 1.547531e48 totalmoney, 1 wallRequirement
+  cost:1.547531e48 totalmoney, 1 wallRequirement
   on earn:
     gain 8e36 bricks
     gain 25 alphaBricks
@@ -1636,7 +1636,7 @@ Buildings
   req:1 destroyInfWall01
   *destroyInfWall03
   desc:please excuse me for the lack of a description while I try to rebalance this era. ok thanks</>Gives <b>40</b> Alpha bricks, <b>7</b> Fifth Dimension bricks, <b>64,000</b> artifical space bricks, <b>25,400</b> artifical time bricks and <b>32 undecillion</b> bricks.</>Worth <b>450,000</b> cosmic knowledge.
-    cost:1.243658e49 tesseractDamage, 4.6464646e49 totalmoney, 1 wallRequirement
+    cost:4.6464646e49 totalmoney, 1 wallRequirement
   on earn:
     gain 3.2e37 bricks
     gain 40 alphaBricks
@@ -1654,7 +1654,7 @@ Buildings
   req:1 destroyInfWall02
   *destroyInfWall04
     desc:please excuse me for the lack of a description while I try to rebalance this era. ok thanks</>Gives <b>60</b> Alpha bricks, <b>12</b> Fifth Dimension bricks, <b>128,000</b> artifical space bricks, <b>35,000</b> artifical time bricks and <b>400 undecillion</b> bricks.</>Worth <b>550,000</b> cosmic knowledge.
-    cost:1e50 tesseractDamage, 3.333e50 totalmoney, 1 wallRequirement
+    cost:3.333e50 totalmoney, 1 wallRequirement
   on earn:
     gain 4e38 bricks
     gain 60 alphaBricks
@@ -1672,7 +1672,7 @@ Buildings
   req:1 destroyInfWall03
   *destroyInfWall05
     desc:please excuse me for the lack of a description while I try to rebalance this era. ok thanks</>Gives <b>80</b> Alpha bricks, <b>16</b> Fifth Dimension bricks, <b>320,000</b> artifical space bricks, <b>80,000</b> artifical time bricks and <b>10 duodecillion</b> bricks.</>Worth <b>650,000</b> cosmic knowledge.
-    cost:4.500e50 tesseractDamage, 7.68543e50 totalmoney, 1 wallRequirement
+    cost:7.68543e50 totalmoney, 1 wallRequirement
   on earn:
     gain 1e40 bricks
     gain 80 alphaBricks
@@ -1690,7 +1690,7 @@ Buildings
   req:1 destroyInfWall04
   *destroyInfWall06
     desc:please excuse me for the lack of a description while I try to rebalance this era. ok thanks</>Gives <b>125</b> Alpha bricks, <b>25</b> Fifth Dimension bricks, <b>640,000</b> artifical space bricks, <b>100,000</b> artifical time bricks and <b>60 duodecillion</b> bricks.</>Worth <b>750,000</b> cosmic knowledge.
-    cost:1.87654321234567890e50 tesseractDamage, 3.12742156444444444444e51 totalmoney, 1 wallRequirement
+    cost:3.12742156444444444444e51 totalmoney, 1 wallRequirement
   on earn:
     gain 6e40 bricks
     gain 125 alphaBricks
@@ -1708,7 +1708,7 @@ Buildings
   req:1 destroyInfWall05
   *destroyInfWall07
   desc:please excuse me for the lack of a description while I try to rebalance this era. ok thanks</>Gives <b>150</b> Alpha bricks, <b>35</b> Fifth Dimension bricks, <b>750,000</b> artifical space bricks, <b>80,000</b> artifical time bricks and <b>450 duodecillion</b> bricks.</>Worth <b>1,000,000</b> cosmic knowledge.
-  cost:3.81174327890e51 tesseractDamage, 9.99999999999999e51 totalmoney, 1 wallRequirement
+  cost:9.99999999999999e51 totalmoney, 1 wallRequirement
   on earn:
     gain 4.5e41 bricks
     gain 150 alphaBricks
