@@ -6964,28 +6964,28 @@ Upgrades
   *buildingTrophy13
   desc:Reality compromisers do <b>2%</b> more damage per reality compromiser.<q>Note: You cannot hack into reality with this trophy, and Agent Johnson is not the primary authority on the subject.</q><//>Black Obliterator Trophy: <b>8,000,000</b> capsules
   cost:4040404040404040404040404040404 money
-  req:6000000 prestige
+  req:3000000 prestige
   passive:multiply yield of compromiser by (1 + (0.02 * compromiser))
   name:Reality Compromiser Trophy
   icon:http://i.imgur.com/dxzVoyz.png
   *buildingTrophy14
   desc:Black obliterators do <b>2%</b> more damage per black obliterator.<q>The 'worst ideas ever suggested' poster in the HQ meeting room has been updated with "make the BO trophy out of The Black".</q><//>Singularity Trophy: <b>12,000,000</b> capsules
   cost:52525252525252525252525252525252 money
-  req:8000000 prestige
+  req:4000000 prestige
   passive:multiply yield of lastBuilding by (1 + (0.02 * lastBuilding))
   name:Black Obliterator Trophy
   icon:http://i.imgur.com/FzcxqP2.png
   *buildingTrophy15
   desc:Singularities do <b>2%</b> more damage per singularity.</><i>So they get a morale boost per each black hole sucked, right?, because sucking *hic* is not attractive ~Drunk agent Johnson.</i></> </>Edge Being Trophy: <b>19,000,000</b> capsules
   cost:1e33 money
-  req:12000000 prestige
+  req:6000000 prestige
   passive:multiply yield of singularityBuilding by (1 + (0.02 * singularityBuilding))
   name:Singularity Trophy
   icon:http://i.imgur.com/fKg9vRK.png
   *buildingTrophy16
   desc:Edge beings do <b>2%</b> more damage per edge being.<q>Blame the elder gods for not creating these earlier.</q>
   cost:1e39 money
-  req:19000000 prestige
+  req:8000000 prestige
   passive:multiply yield of edgeBeing by (1 + (0.02 * edgeBeing))
   name:Edge Being Trophy
   icon:http://i.imgur.com/Gtg8P7F.png
@@ -7193,7 +7193,7 @@ Upgrades
   *trophy21
   desc:Damage and brick production multipliers <b>+35%</b>.<q>More like TRYHARD tier.</q><//>Next trophy: <b>5,000,000</b> capsules, defeat of the <b>Boss Finality Wall</b>
   cost:7.777777777777777e35 money, 7.777777777777777e22 bricks, 777777777777777777777 fourthWallMatter
-  req:3000000 prestige, 1 endBossPoint 
+  req:2000000 prestige, 1 endBossPoint 
   passive:
     multiply yield of tag:building by 1.35
     multiply yield of tag:clickable by 1.35
@@ -7203,7 +7203,7 @@ Upgrades
   *trophy22
   desc:Damage and brick production multipliers <b>+35%</b>.<q>We put devil tier higher than god tier to earn some points with the demons. Their response was that their boss prefers haters to ass-kissers.</q><//>Next trophy: <b>7,000,000</b> capsules
   cost:7.777777777777777e36 money, 7.777777777777777e23 bricks, 7777777777777777777777 fourthWallMatter
-  req:5000000 prestige, 1 timesActuallyWon
+  req:3000000 prestige, 1 timesActuallyWon
   passive:
     multiply yield of tag:building by 1.35
     multiply yield of tag:clickable by 1.35
@@ -7213,7 +7213,7 @@ Upgrades
   *trophy23
   desc:Damage and brick production multipliers <b>+40%</b>.<q><b>REPORT: Incident 088Y</b></>Agent Johnson attempted to chop down a Finality Tree with an adamantium axe to build this trophy. Nearly microscopic shards of adamantium were everywhere, and a large crater was found 21 miles away. The Tree was unscratched. Johnson arrived to the RUC the next day, and reportedly said "I'm gonna need a bigger axe."</>He was banned from The Finality Plateaus, on the grounds that it took a complex reality script to remove the adamantium shards.</q><//>Tellurium trophy: <b>10,000,000</b> capsules, <b>5</b> defeats of the <b>Boss Finality Wall</b>
   cost:7.777777777777777e37 money, 7.777777777777777e24 bricks, 7.777777777777777e22 fourthWallMatter
-  req:7000000 prestige, 1 timesActuallyWon
+  req:4000000 prestige, 1 timesActuallyWon
   passive:
     multiply yield of tag:building by 1.4
     multiply yield of tag:clickable by 1.4
@@ -7223,7 +7223,7 @@ Upgrades
   *trophy24
   desc:Damage and brick production multipliers <b>+40%</b><q>"God. What an egotist.</><i>Agent Johnson</i></>Fantasy Trophy: <b>20,000,000</b> capsules, <b>6</b> defeats of the <b>Boss Finality Wall</b>
   cost:7.777777777777777e38 money, 7.777777777777777e25 bricks, 7.777777777777777e23 fourthWallMatter
-  req:10000000 prestige, 5 timesActuallyWon
+  req:5000000 prestige, 1 timesActuallyWon
   passive:
     multiply yield of tag:building by 1.4
     multiply yield of tag:clickable by 1.4
@@ -7233,7 +7233,7 @@ Upgrades
   *trophy25
   desc:Damage and brick production multipliers <b>+50%</b>, glitch mult <b>+25%</b><q>The image of the trophy exists in your dreams.</q>
   cost:7.77e38 money, 5.55e26 bricks, 1e25 fourthWallMatter
-  req:20000000 prestige, 6 timesActuallyWon
+  req:7000000 prestige, 1 timesActuallyWon
   passive:
     multiply yield of tag:building by 1.5
     multiply yield of tag:clickable by 1.5
@@ -7243,7 +7243,7 @@ Upgrades
   *trophy26
   desc:Damage and brick production multipliers <b>+55%</b><q>(image pending, seriously - usavictor)</q>
   cost:1.44e41 money, 2.147483647e27 bricks, 3e25 fourthWallMatter
-  req:33333333 prestige, 7 timesActuallyWon
+  req:10000000 prestige, 1 timesActuallyWon
   passive:
     multiply yield of tag:building by 1.55
     multiply yield of tag:clickable by 1.55
